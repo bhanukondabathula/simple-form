@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.6dwd05ucI7PFhHoEG1sjXAHaEo&pid=Api&P=0&h=180');
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile{
+  width: 120px;
+  margin: auto;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  background-color: rgba(51, 49, 49, 0.8);
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 35px;
+}
+
+.input-sec {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.input-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-field {
+  font-size: 16px;
+  height: 30px;
+  background-color: #e6e9ec;
+  border-radius: 15px;
+  padding: 8px 12px;
+}
+
+.input-field:focus {
+  border-color: #0b69ff;
+  outline: none;
+}
+
+.submit-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  height: 40px;
+  width: 140px;
+  margin-top: 10px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0a58d4;
+}
+
+.success-message {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #38a169;
+  margin-top: 15px;
+}
